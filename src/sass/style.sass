@@ -1,0 +1,118 @@
+*
+    box-sizing: border-box
+    font-family: 'Josefin Slab', 'Raleway'
+    font-weight: 400
+    font-size: 16px
+    padding: 0
+    margin: 0
+li
+    list-style: none
+
+a
+    text-decoration: none
+    color: black
+.header
+    height: 80px
+    > .container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        border-bottom: 1px solid #000
+        img
+            height: 100px
+
+.desk__menu
+    display: flex
+    padding: 0
+    justify-content: space-between
+
+.container 
+    width: 1170px
+    margin: 0 auto
+    height: 100%
+.fast__contact
+    display: flex
+    align-items: center
+    width: 225px
+    flex-wrap: wrap
+    height: 100%
+    > i
+        display: flex
+        align-items: center
+.fas.fa-phone:before
+    margin-right: 15px
+.far.fa-envelope:before
+    margin-right: 15px
+.mobill-href
+    font-family: 'Josefin Slab', 'Raleway'
+
+.nav
+    width: 500px
+
+.baner
+    height: 600px
+    > .container
+        height: 100%
+        background: url(../img/baner.png) no-repeat center center
+        background-size: 100%
+        display: flex
+        align-items: center
+        position: relative
+        flex-wrap: wrap
+        border-bottom: 1px solid black
+
+.list__href:after 
+    background-color: black
+    display: block
+    content: ""
+    height: 2px
+    width: 0%
+    -webkit-transition: width .3s ease-in-out
+    -moz--transition: width .3s ease-in-out
+    transition: width .3s ease-in-out
+
+.list__href:hover:after,
+.list__href:focus:after 
+    width: 100%
+
+
+.main__titile
+    width: 100%
+    position: absolute
+    top: 180px
+    margin-left: 110px
+    font-size: 30px
+    text-transform: uppercase
+    color: white
+
+.baner__list
+    width: 100%
+    position: absolute
+    top: 280px
+    margin-left: 40px
+
+.btn__baner
+    position: absolute
+    bottom: 110px
+
+.baner_list_item:not(:last-child)
+    margin-bottom: 15px
+
+.baner_list_item
+    color: white
+    font-size: 20px
+
+.btn__baner
+    padding: 20px 40px
+    margin-left: 40px
+    background: black
+    border-radius: 20px
+    color: white
+    transition: 0.75s
+    border: 1px solid black
+
+.btn__baner:hover
+    color: white
+    background: transparent
+    border-radius: 20px
+    border: 1px solid white
